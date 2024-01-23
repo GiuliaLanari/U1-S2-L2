@@ -49,8 +49,6 @@ if (totalShoppingCart > 50) {
 const totalShoppingCart2 = 300;
 const blackFriday = totalShoppingCart2 - "20%";
 
-console.log(blackFriday);
-
 if (totalShoppingCart2 > 50) {
   alert("spedizione gratuita!");
 } else totalShoppingCart2 < 50;
