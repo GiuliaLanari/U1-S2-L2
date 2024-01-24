@@ -71,10 +71,10 @@ let spedizione2 = 10;
 let totPay2 = totalShoppingCart2 + spedizione2;
 
 if (totalShoppingCart2 > 50) {
-  alert("spedizione gratuita!");
+  console.log("spedizione gratuita!", totalShoppingCart2);
 } else totalShoppingCart2 < 50;
 {
-  alert(totalShoppingCart2 + 10);
+  console.log(totalShoppingCart2 + spedizione);
 }
 
 /* ESERCIZIO 7
