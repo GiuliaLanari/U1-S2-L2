@@ -57,8 +57,8 @@ let totPay = totalShoppingCart + spedizione;
 
 if (totalShoppingCart < 50) {
   console.log("spesa di spedizione aggiunta", totPay);
-} else if (totalShoppingCart > 50) {
-  console.log("le spese di spedizione sono gratis!");
+} else {
+  console.log("le spese di spedizione sono gratis!", totalShoppingCart);
 }
 
 /* ESERCIZIO 6
@@ -132,9 +132,9 @@ Modifica la logica del seguente algoritmo in modo che mostri in console il messa
 */
 let val = 7;
 if (val < 5) {
-  console.log("Meno di 10");
-} else if (val < 10) {
   console.log("Meno di 5");
+} else if (val < 10) {
+  console.log("Meno di 10");
 } else {
   console.log("Uguale a 10 o maggiore");
 }
